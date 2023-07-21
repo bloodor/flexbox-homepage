@@ -1,13 +1,16 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', arial;
     margin: 0;
+
+    text-align: center;
 }
 
-a {
+.header a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
     padding: 16px;
+    font-family: 'Roboto', arial;
 }
 
 .logo {
@@ -51,6 +54,7 @@ h1 {
     justify-content: space-between;
     gap: 50px;
     height: 350px;
+    text-align: left;
 }
 
 .hero-left {
@@ -69,10 +73,95 @@ button {
     color: #F9FAF8;
 }
 
-.big-picture {
-    height: 300px;
+.hero img {
+    width: 600px;
+    height: 350px;
     flex-shrink: 1;
 }
 
+.layer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.layer2-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 40px;
+}
+
+.layer2-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+
+    font-size: 24px;
+}
+
+.layer2-content img {
+    width: 250px;
+    height: 250px;
+    border: 4px solid #3882F6;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.quote-layer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 75px 200px;
 
 
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-signature {
+    font-size: 24px;
+    font-weight: 700;
+    align-self: end;
+    font-style: normal;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin: 50px 250px;
+    padding: 50px 100px;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.call-to-action button {
+    border: 4px solid white;
+}
+
+.call-to-action p {
+    font-weight: 300;
+    margin: 0;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 40px 0;
+}
